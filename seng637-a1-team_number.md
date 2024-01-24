@@ -36,7 +36,13 @@ functional testing before this lab
 
 # High-level description of the exploratory testing plan
 
-Text…
+The primary objective of our exploratory test plan is to comprehensively assess the functionality and reliability of the ATM simulation system. Our focus will be on the core functionalities: Withdrawal, Deposit, Transfer, and Balance Inquiry. We will also pay attention to secondary features such as card reading, PIN validation, session management, error handling, and receipt generation. The testing approach is designed to ensure both, the basic operational integrity of the system and its behavior under various scenarios.
+
+
+Our methodology integrates testing both, basic and specific requirements. First, we will conduct a series of tests covering all of the basic functions to ensure that the system operates correctly for typical usage. After, we will test specific functionalities under various conditions and parameters. This includes testing edge cases such as invalid PIN entries, withdrawal limits, and response to unreadable cards. The aim is to not only verify the system against its requirements but also to assess its error-handling capabilities.
+
+
+Test cases will be developed based on common usage patterns as well as potential exceptions, ensuring a in-depth evaluation of the system. These will include standard operations and various failure conditions. Our team will perform testing in pairs, one member will perform the test and the other will write the result. Continuous documentation and defect reporting will be crucial throughout the testing process.
 
 # Comparison of exploratory and manual functional testing
 
